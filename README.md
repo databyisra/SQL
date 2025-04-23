@@ -1,4 +1,4 @@
-# NYC Bicycle - SQL Queries
+# London Bicycle - SQL Queries
 
 This repository contains SQL queries completed as part of the Google Data Certifications program. The SQL queries are used to explore, analyze, and manipulate data from various datasets, including public datasets from Google BigQuery.
 
