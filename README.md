@@ -1,13 +1,12 @@
-# Solar Potential in Pennsylvania – BigQuery Exploration
-
-This project explores solar potential by ZIP code in the state of **Pennsylvania** using data from Google’s Project Sunroof via the BigQuery public datasets.
-
-##  Query Overview
-
-We query the `bigquery-public-data.sunroof_solar.solar_potential_by_postal_code` table to extract all available solar potential data specific to Pennsylvania.
-
-### SQL Used:
-```sql
-SELECT *
-FROM `bigquery-public-data.sunroof_solar.solar_potential_by_postal_code`
-WHERE state_name = 'Pennsylvania';
+sql-data-cleaning-project/
+│
+├── README.md
+├── queries/
+│   ├── 01_inspect_fuel_type.sql
+│   ├── 02_check_length_column.sql
+│   ├── 03_null_num_of_doors.sql
+│   ├── 04_fix_num_of_cylinders.sql
+│   ├── 05_check_compression_ratio.sql
+│   └── 06_trim_drive_wheels.sql
+├── data/
+│   └── automobile_data.csv
