@@ -41,10 +41,6 @@ ON employees.department_id = departments.department_id;
 🔍 Purpose: Returns all employees, even if they don't belong to a department. Unmatched departments show as NULL.
 
 🔹 INNER JOIN – Employees with a Matching Department
-sql
-Copy
-Edit
-SELECT
   employees.name AS employee_name,
   employees.role AS employee_role,
   departments.name AS department_name
@@ -56,9 +52,6 @@ ON employees.department_id = departments.department_id;
 🔍 Purpose: Returns only employees who are assigned to a department.
 
 🔹 RIGHT JOIN – All Departments (even if no employees are assigned)
-sql
-Copy
-Edit
 SELECT
   employees.name AS employee_name,
   employees.role AS employee_role,
@@ -71,9 +64,6 @@ ON employees.department_id = departments.department_id;
 🔍 Purpose: Returns all departments. If a department has no employees, those fields will be NULL.
 
 🔹 FULL OUTER JOIN – All Employees and All Departments
-sql
-Copy
-Edit
 SELECT
   employees.name AS employee_name,
   employees.role AS employee_role,
