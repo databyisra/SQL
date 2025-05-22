@@ -8,9 +8,7 @@ This project demonstrates how SQL can be used to:
 - Gain insights into trends within a specific genre
 
 ---
-
-## 🧾 SQL Queries Used
-
+##  SQL Queries Used
 ### 🔹 Query 1: All Comedy Movies (Sorted by Release Date)
 
 ```sql
