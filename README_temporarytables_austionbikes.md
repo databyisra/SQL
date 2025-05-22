@@ -6,7 +6,7 @@ This project analyzes the Austin Bikeshare dataset using SQL in Google BigQuery 
 
 ---
 
-### 📍 Dataset Location:
+###  Dataset Location:
 `bigquery-public-data.austin_bikeshare.bikeshare_trips`
 
 ---
@@ -14,14 +14,14 @@ This project analyzes the Austin Bikeshare dataset using SQL in Google BigQuery 
 ### 📊 Dataset Structure
 
 **bikeshare_trips table**
-- 🆔 `bike_id`: Unique identifier for each bike  
-- ⏱ `duration_minutes`: Duration of the trip in minutes  
-- 📍 `start_station_id`: Station where the trip started  
-- 📅 `start_time`, `end_time`: Timestamps of the trip  
+-  `bike_id`: Unique identifier for each bike  
+- `duration_minutes`: Duration of the trip in minutes  
+-  `start_station_id`: Station where the trip started  
+-  `start_time`, `end_time`: Timestamps of the trip  
 
 ---
 
-## 🧪 Combined SQL Workflow — Longest-Used Bike + Most Frequent Start Station
+##  Combined SQL Workflow — Longest-Used Bike + Most Frequent Start Station
 
 ```sql
 WITH longest_used_bike AS (
