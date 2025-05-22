@@ -7,7 +7,7 @@ Dataset location:
 
 ---
 
-## 📊 Dataset Structure
+## Dataset Structure
 
 **citibike_trips table**
 - `tripduration`: Duration of the trip (in seconds)  
@@ -18,9 +18,9 @@ Dataset location:
 
 ---
 
-## 🧪 SQL Queries
+## SQL Queries
 
-### 🔹 Query 1 & 2 — **Trips with Above-Average Duration (by Station) and Station Ranking by Average Duration**
+### Query 1 & 2 — **Trips with Above-Average Duration (by Station) and Station Ranking by Average Duration**
 
 #### Combined Query Code:
 
