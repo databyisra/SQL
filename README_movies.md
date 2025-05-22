@@ -42,7 +42,7 @@ Purpose:
 Focus on comedy movies that earned more than $300 million, sorted by release date. This highlights the most commercially successful comedies.
 
 ---
-🛠️ Key SQL Concepts
+Key SQL Concepts:
 SELECT *: Selects all available fields from the table.
 
 WHERE Genre = "Comedy": Filters rows to only comedy movies.
