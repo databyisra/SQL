@@ -2,24 +2,24 @@
 
 This project explores food safety incident data using **SQL** in **Google BigQuery**. It identifies the **top 10 food industry categories** most frequently linked to **hospitalization events**, leveraging **subqueries**, **filtering**, and **pattern matching** techniques.
 
-**📍 Dataset location:**  
+**Dataset location:**  
 `bigquery-public-data.fda_food.food_events`
 
 ---
 
-## 🗃 Dataset Overview
+## Dataset Overview
 
 **food_events table**
 
-- 🆔 `report_number`: Unique ID for each FDA event report  
-- 🏷️ `products_industry_name`: Category of the reported food product  
-- 🚑 `outcomes`: Description of the health result (e.g., Hospitalization, Death)
+-  `report_number`: Unique ID for each FDA event report  
+-  `products_industry_name`: Category of the reported food product  
+- `outcomes`: Description of the health result (e.g., Hospitalization, Death)
 
 ---
 
-## 🖥 SQL Query  
+## SQL Query  
 
-### 🔸 Query — Top 10 Food Industries by Hospitalization Count
+### Query — Top 10 Food Industries by Hospitalization Count
 
 **Query Code:**
 
@@ -41,19 +41,20 @@ WHERE products_industry_name IN (
 AND outcomes LIKE '%Hospitalization%'
 GROUP BY products_industry_name
 ORDER BY count_hospitalizations DESC;
-🎯 Purpose
+----
+🎯 Purpose 
 This query is designed to:
 
-🔍 Focus on the top 10 industries based on total event volume
+- Focus on the top 10 industries based on total event volume
 
-📉 Filter for cases that mention "Hospitalization" in the outcome
+- Filter for cases that mention "Hospitalization" in the outcome
 
-📊 Count and rank industries by the number of hospitalization reports
+- Count and rank industries by the number of hospitalization reports
 
 🧠 SQL Concepts Demonstrated:
-🧩 Subqueries inside WHERE IN clauses
+- Subqueries inside WHERE IN clauses
 
-🔤 Pattern matching using LIKE '%Hospitalization%'
+- Pattern matching using LIKE '%Hospitalization%'
 
 📈 Aggregation with COUNT() and GROUP BY
 
