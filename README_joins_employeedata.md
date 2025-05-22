@@ -11,7 +11,7 @@ Edit
 
 ---
 
-## 📊 Dataset Structure
+## Dataset Structure
 
 **employees table**
 - `name`: Employee name  
@@ -24,9 +24,9 @@ Edit
 
 ---
 
-## 🧪 Join Types & Queries
+##  Join Types & Queries
 
-### 🔹 LEFT JOIN – All Employees (with or without a department)
+###  LEFT JOIN – All Employees (with or without a department)
 
 ```sql
 SELECT
